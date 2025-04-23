@@ -51,6 +51,8 @@ body {
   align-items: center;
   background-color: #2c7efa;
   border-radius: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .qr-code-component__cartTitle {
@@ -68,4 +70,28 @@ body {
   margin-top: 1.6rem;
   text-align: center;
   color: #68778d;
+}
+
+.qr-code-component__ovalRightBottom {
+  position: absolute;
+  width: 14rem;
+  height: 8.8rem;
+  border-radius: 0 0 1rem 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.qr-code-component__ovalLeftTop {
+  position: absolute;
+  width: 19.6rem;
+  height: 16rem;
+  border-radius: 1rem 0 0 0;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.qr-code-component__cardQr {
+  z-index: 3;
 }
