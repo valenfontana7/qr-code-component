@@ -40,7 +40,7 @@ body {
   background-color: #fff;
   border-radius: 2rem;
   color: #1f314f;
-  padding: 2rem;
+  padding: 1.6rem;
 }
 
 .qr-code-component__cardQrBackground {
@@ -61,10 +61,11 @@ body {
 }
 
 .qr-code-component__cardText {
+  width: 84%;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 2.4rem;
-  margin-top: 1.5rem;
+  margin-top: 1.6rem;
   text-align: center;
   color: #68778d;
 }
